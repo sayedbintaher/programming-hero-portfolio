@@ -17,11 +17,15 @@ section {
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding: 10%;
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
+}
+
+.half-width a {
+    margin-top: 100px;
 }
 
 .hire-me-button {
@@ -36,4 +40,10 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
